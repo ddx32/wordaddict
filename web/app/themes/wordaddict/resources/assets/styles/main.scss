@@ -3,6 +3,9 @@
 /** Import everything from autoload */
 @import "./autoload/**/*";
 
+/** Import fonts */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+
 /**
  * Import npm dependencies
  *
@@ -25,4 +28,5 @@
 @import "layouts/footer";
 @import "layouts/pages";
 @import "layouts/posts";
+@import "layouts/issue";
 @import "layouts/tinymce";

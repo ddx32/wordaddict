@@ -1,0 +1,125 @@
+.home-link {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 2;
+}
+
+.wa-logo-path {
+  fill: #fff;
+  transition: fill 1s;
+}
+
+.wa-logo-dark {
+  fill: #000;
+}
+
+.issue-header {
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 0;
+  padding: 5rem 0 2rem;
+}
+
+@media (min-width: 500px) {
+  .issue-header {
+    height: 100vh;
+  }
+}
+
+.issue-header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0));
+  z-index: 1;
+}
+
+.issue-header-summary {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+@media (min-width: 500px) {
+  .issue-header-summary {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    z-index: 2;
+  }
+}
+
+@media (min-width: 500px) {
+  .issue-header-summary-text {
+    padding-left: 2rem;
+    width: 100%;
+  }
+}
+
+.issue-header-name {
+  font-size: 3rem;
+  line-height: 4rem;
+  font-family: $fancy-font;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.issue-header-name small {
+  display: block;
+  font-weight: 200;
+  font-size: 1.5rem;
+  margin-bottom: -1rem;
+  font-family: sans-serif;
+}
+
+.single-issue-content {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+
+  @media (min-width: 600px) {
+    margin: 5rem auto;
+    padding: 0 5rem;
+  }
+}
+
+.intro-riddle {
+  font-family: $fancy-font;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #eee;
+}
+
+.intro-riddle::first-letter {
+  font-size: 4rem;
+  float: left;
+  padding-right: 1rem;
+}
+
+@media (min-width: 600px) {
+  .intro-riddle {
+    font-size: 1.7rem;
+  }
+
+  .intro-riddle::first-letter {
+    font-size: 6rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .intro-riddle {
+    font-size: 2rem;
+  }
+}

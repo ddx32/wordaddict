@@ -7,9 +7,7 @@
         @php(do_action('get_header'))
         @include('partials.header')
         
-        <div class="wrap container" role="document">
-            @yield('content')
-        </div>
+        @yield('content')
         
         @php(do_action('get_footer'))
         @include('partials.footer')

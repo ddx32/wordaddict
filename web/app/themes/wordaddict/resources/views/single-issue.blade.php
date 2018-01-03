@@ -6,9 +6,7 @@
 @extends('layouts.issue')
 
 @section('content')
-  We have a single issue here.
   @while(have_posts()) @php(the_post())
-    @include('partials.page-header')
-    @include('partials.content-page')
+    @include('partials.content-single-issue')
   @endwhile
 @endsection
