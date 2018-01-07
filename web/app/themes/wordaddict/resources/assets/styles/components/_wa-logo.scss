@@ -1,0 +1,15 @@
+.home-link {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 2;
+}
+
+.wa-logo-path {
+  fill: #fff;
+  transition: fill 1s;
+}
+
+.wa-logo-dark {
+  fill: #000;
+}
