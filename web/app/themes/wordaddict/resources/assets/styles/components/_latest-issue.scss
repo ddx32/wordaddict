@@ -1,4 +1,42 @@
 .latest-issue {
-  background-color: #777;
-  display: flex;
+  background-color: rgb(90, 90, 90);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 5%;
+  position: relative;
+}
+
+.latest-issue-content {
+  max-width: 1080px;
+  margin: auto;
+}
+
+.latest-issue-name {
+  color: #fff;
+}
+
+.latest-issue-image {
+  display: none;
+}
+
+@media (min-width: 700px) {
+  .latest-issue-content {
+    display: flex;
+    align-items: center;
+  }
+
+  .latest-issue-teaser {
+    padding-left: 2rem;
+  }
+
+  .latest-issue-image {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .latest-issue {
+    padding: 60px;
+  }
 }
