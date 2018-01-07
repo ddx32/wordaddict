@@ -15,7 +15,7 @@
                 Released: {{ $release_date }}
             </div>
 
-            <a href="{{ get_field('full_issue_pdf') }}" class="btn btn-pdfdownload">Download full issue</a>
+            <a href="{{ get_field('full_issue_pdf') }}" class="btn btn-white">Download full issue</a>
         </div>
     </div>
 </header>
