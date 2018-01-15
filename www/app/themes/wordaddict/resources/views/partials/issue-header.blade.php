@@ -2,7 +2,7 @@
 
 <header class="issue-header" style="background-image: url({{ $artwork_image['sizes']['huge'] }})">
     <div class="issue-header-summary">
-        <img src="{{ $cover_image['sizes']['medium'] }}" class="issue-cover-img">
+        <img src="{{ $cover_image['sizes']['medium'] }}" class="box-shadow">
         <div class="issue-header-summary-text">
             <h1 class="issue-header-name">
                 <small>

@@ -12,15 +12,36 @@
   margin: auto;
 }
 
-.latest-issue-name {
+.latest-issue-h2 {
   color: #fff;
+  margin-bottom: 0;
+}
+
+.latest-issue-release {
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .latest-issue-image {
   display: none;
 }
 
-@media (min-width: 700px) {
+.latest-issue-teaser {
+  font-size: 1rem;
+}
+
+.latest-issue a {
+  color: #fff;
+}
+
+.latest-issue a:hover {
+  color: #fff;
+}
+
+@media (min-width: 600px) {
+  .latest-issue-image {
+    display: block;
+  }
+
   .latest-issue-content {
     display: flex;
     align-items: center;
@@ -29,14 +50,20 @@
   .latest-issue-teaser {
     padding-left: 2rem;
   }
+}
 
-  .latest-issue-image {
-    display: block;
+@media (min-width: 800px) {
+  .latest-issue-teaser {
+    font-size: 1.2rem;
   }
 }
 
 @media (min-width: 1200px) {
   .latest-issue {
     padding: 60px;
+  }
+
+  .latest-issue-teaser {
+    font-size: 1.4rem;
   }
 }
