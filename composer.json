@@ -52,7 +52,7 @@
     "php": ">=5.6",
     "composer/installers": "^1.4",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "4.9.0",
+    "johnpbloch/wordpress": "4.9.2",
     "oscarotero/env": "^1.1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-plugin/tiled-gallery-carousel-without-jetpack": "^2.2",
@@ -64,11 +64,11 @@
   },
   "extra": {
     "installer-paths": {
-      "www/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
-      "www/app/plugins/{$name}/": ["type:wordpress-plugin"],
-      "www/app/themes/{$name}/": ["type:wordpress-theme"]
+      "public/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "public/app/plugins/{$name}/": ["type:wordpress-plugin"],
+      "public/app/themes/{$name}/": ["type:wordpress-theme"]
     },
-    "wordpress-install-dir": "web/wp"
+    "wordpress-install-dir": "public/wp"
   },
   "scripts": {
     "post-root-package-install": [

@@ -1,14 +1,14 @@
 # Application
-www/app/plugins/*
-!www/app/plugins/.gitkeep
-www/app/mu-plugins/*/
-www/app/upgrade
-www/app/uploads/*
-!www/app/uploads/.gitkeep
+public/app/plugins/*
+!public/app/plugins/.gitkeep
+public/app/mu-plugins/*/
+public/app/upgrade
+public/app/uploads/*
+!public/app/uploads/.gitkeep
 
 # WordPress
-www/wp
-www/.htaccess
+public/wp
+public/.htaccess
 
 # Dotenv
 .env
