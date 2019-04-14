@@ -1,0 +1,27 @@
+version: '3.1'
+services:
+  wp:
+    depends_on:
+      - db
+    build: .
+    ports:
+      - 8080:80
+    volumes:
+      - wp-uploads:/var/www/public/app/uploads
+  
+  db:
+    image: mariadb:10.4
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - db:/var/lib/mysql
+  
+  adminer:
+    image: adminer:latest
+    ports:
+      - 9000:8080
+
+volumes:
+  wp-uploads:
+  db:
