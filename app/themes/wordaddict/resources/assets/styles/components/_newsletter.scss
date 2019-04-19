@@ -1,0 +1,35 @@
+.newsletter {
+  text-align: center;
+  padding: 5rem 1rem;
+}
+
+.newsletter-h3 {
+  font-weight: normal;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+
+.newsletter-email {
+  height: 3rem;
+  padding: 0 1rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  flex: 2;
+  margin-right: 0.5rem;
+  min-width: 100px;
+}
+
+.newsletter-submit {
+  height: 3rem;
+  background: #ddd;
+  border: none;
+  font-size: 1rem;
+  padding: 0 1rem;
+  flex: 1;
+}

@@ -1,14 +1,12 @@
 # Application
-public/app/plugins/*
-!public/app/plugins/.gitkeep
-public/app/mu-plugins/*/
-public/app/upgrade
-public/app/uploads/*
-!public/app/uploads/.gitkeep
+app/plugins/*
+!app/plugins/wordaddict
+app/upgrade
+app/uploads/*
+!app/uploads/.gitkeep
 
-# WordPress
-public/wp
-public/.htaccess
+app/themes/*
+!app/themes/wordaddict
 
 # Dotenv
 .env

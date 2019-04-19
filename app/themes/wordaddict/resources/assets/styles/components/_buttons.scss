@@ -1,0 +1,21 @@
+.btn {
+  padding: 1rem;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.btn-white {
+  color: #fff;
+  line-height: 6rem;
+  font-weight: normal;
+  transition: all 0.3s;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.btn-white:hover {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  text-shadow: rgba(0, 0, 0, 0.808) 1px 1px 0;
+}

@@ -1,0 +1,14 @@
+.gallery-item {
+  margin-bottom: 20%;
+  padding: 0 10% 0 0;
+}
+
+.gallery-item:nth-child(even) {
+  text-align: right;
+  padding: 0 0 0 10%;
+}
+
+.gallery-img {
+  max-width: 100%;
+  height: auto;
+}

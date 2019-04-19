@@ -1,0 +1,50 @@
+.wordaddict-about {
+  padding: 2rem 5% 0;
+}
+
+.wordaddict-about-content {
+  max-width: 1080px;
+  margin: auto;
+}
+
+.wordaddict-about-hr {
+  margin-top: 4rem;
+  margin-bottom: 0;
+}
+
+.wordaddict-about-quote {
+  @media (min-width: 980px) {
+    display: flex;
+  }
+}
+
+.wordaddict-about-quoteauthor {
+  text-align: center;
+  margin: 3rem 0;
+  flex: 1;
+}
+
+.wordaddict-about-quotetext {
+  @media (min-width: 980px) {
+    flex: 3;
+    padding-right: 1.5rem;
+  }
+}
+
+.wordaddict-about-photo {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 1rem;
+  flex: 1;
+  border-radius: 200px;
+}
+
+.wordaddict-about-lelek {
+  margin-bottom: 0;
+}
+
+.wordaddict-about-editor {
+  font-weight: normal;
+  color: #555;
+}

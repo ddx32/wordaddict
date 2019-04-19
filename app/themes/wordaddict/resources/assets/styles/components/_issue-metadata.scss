@@ -1,0 +1,65 @@
+.single-issue-metadata {
+  font-size: 0.9rem;
+  color: #666;
+  padding-top: 0.5rem;
+
+  @media (min-width: 370px) and (max-width: 887px) {
+    display: flex;
+  }
+}
+
+.metadata-main {
+  flex: 1;
+
+  @media (min-width: 370px) {
+    padding-right: 0.5rem;
+  }
+}
+
+.metadata-credits {
+  flex: 1;
+}
+
+.single-issue-cover {
+  max-width: 150px;
+  opacity: 0.5;
+}
+
+.single-issue-name {
+  margin: 0 0 0.1rem;
+  font-size: 1.4rem;
+  line-height: 1.3;
+}
+
+.single-issue-number {
+  display: block;
+  margin-top: 1rem;
+}
+
+.single-issue-release {
+  display: block;
+}
+
+.single-issue h4 {
+  margin: 1rem 0 0;
+}
+
+h4.single-issue-contributors {
+  @media (min-width: 370px) and (max-width: 887px) {
+    margin-top: 0;
+  }
+}
+
+.single-issue-pdf {
+  display: inline-block;
+  background: #aaa;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+}
+
+.single-issue ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

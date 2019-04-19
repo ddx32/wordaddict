@@ -1,0 +1,79 @@
+@import "../components/wa-logo";
+@import "../components/issue-header";
+@import "../components/issue-metadata";
+
+@media (min-width: 500px) {
+  .issue-header-summary-text {
+    padding-left: 2rem;
+    width: 100%;
+  }
+}
+
+.single-issue-content {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 600px) {
+    margin: 5rem auto;
+    padding: 0 5rem;
+  }
+
+  @media (min-width: 888px) {
+    flex-direction: row;
+  }
+}
+
+.single-issue-main-article {
+  @media (min-width: 888px) {
+    flex: 4;
+    padding-right: 3rem;
+  }
+}
+
+.single-issue-metadata {
+  flex: 1;
+}
+
+.intro-riddle {
+  font-family: $fancy-font;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #eee;
+}
+
+/*
+.intro-riddle::first-letter {
+  font-size: 4rem;
+  display: block;
+  width: 100%;
+  padding: 0 1rem 0 0;
+  margin: 0;
+}
+*/
+
+@media (min-width: 600px) {
+  .intro-riddle {
+    font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .intro-riddle {
+    font-size: 2.2rem;
+  }
+}
+
+.quote-author {
+  font-size: 1.5rem;
+  text-align: right;
+  margin: 2rem 0 0;
+}
+
+.quote-author::before {
+  content: "–";
+  padding-left: 20%;
+}
