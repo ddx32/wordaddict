@@ -1,0 +1,47 @@
+.donatebar {
+  padding: 0 8%;
+  margin: 0 auto 3rem;
+
+  &-content {
+    max-width: 920px;
+    margin: auto;
+  }
+
+  &-heading {
+    font-family: $fancy-font;
+    font-size: 8vw;
+    font-weight: normal;
+    margin-top: -1rem;
+
+    @media screen and (min-width: 480px) {
+      font-size: 2.4rem;
+    }
+  }
+
+  &-donate {
+    @media screen and (min-width: 850px) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &-text {
+      @media screen and (min-width: 850px) {
+        margin: 0 1rem 0 0;
+        flex: 2 1 auto;
+      }
+    }
+
+    &-button {
+      flex: 1 1 17rem;
+      min-height: 3rem;
+      max-width: 13rem;
+      background: #000;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+    }
+  }
+}
