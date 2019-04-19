@@ -9,7 +9,7 @@
     ]
   },
   "publicPath": "/content/themes/wordaddict",
-  "devUrl": "http://wa.lo",
+  "devUrl": "http://localhost:8000",
   "proxyUrl": "http://localhost:3000",
   "cacheBusting": "[name]_[hash:8]",
   "watch": [
