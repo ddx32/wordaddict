@@ -1,0 +1,34 @@
+.donae-page * {
+  box-sizing: border-box;
+}
+
+.donate-page {
+  p,
+  ul,
+  h2,
+  table {
+    padding: 0 2rem;
+    max-width: 60rem;
+    margin: 1rem auto;
+  }
+
+  .wp-block-table {
+    width: 100%;
+
+    td {
+      padding-left: 2rem;
+    }
+  }
+
+  ul {
+    padding-left: 5rem;
+  }
+
+  .intro-riddle {
+    border: none;
+  }
+}
+
+.donate-page-content {
+  margin-top: 5rem;
+}

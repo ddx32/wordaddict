@@ -3,12 +3,13 @@
   Template Post Type: page
 --}}
 
-@extends('layouts.app')
+@extends('layouts.general')
 
 @section('content')
-  @while(have_posts()) @php(the_post())
-    @php(the_title())
-    @php(the_content())
-  @endwhile
+  @include('partials.issue-header-logo')
+  <div class="donate-page-content">
+    @while(have_posts()) @php(the_post())
+      @php(the_content())
+    @endwhile
+  </div>
 @endsection
-
